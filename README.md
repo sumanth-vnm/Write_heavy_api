@@ -1,5 +1,5 @@
 # Custom Analytics API Project
-
+Authors: Siddik Ayyappa, VNM Sumanth
 ## Problem Statement
 Build a custom analytics API similar to Segment.io with a write-heavy ingestion endpoint for logging and visualizing data.
 
