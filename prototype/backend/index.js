@@ -27,6 +27,19 @@ app.post('/', (req, res) => {
 
 
 app.post('/sendEvent', (req, res) => {
+    if(req.body == undefined){
+      res.send("Wrong format");
+      return;
+    }
+    if(req.body.meta == undefined) {
+      res.send("Wrong Format");
+      return;
+    }
+    if(req.body.data == undefined) {
+      res.send("Wrong Format");
+      return;
+    }
+    
     console.log(req);
     const x = req.body;
     res.send(x);  
